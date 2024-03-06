@@ -30,18 +30,18 @@ public class WatchDemo extends Base_class {
 		WebElement companyName=driver.findElement(By.xpath("//*[@id='Company']"));
 		companyName.sendKeys("Entrata");
 		scrollpage();
-	    WebElement phoneno=driver.findElement(By.xpath("//*[@id='Company']"));
-	    phoneno.sendKeys("9380888735");
-	    WebElement unitCount=driver.findElement(By.xpath("//*[@id=\"Unit_Count__c\"] "));  
-	    Select se=new Select(unitCount);
-	    se.selectByIndex(1);
-	    WebElement jobTitle=driver.findElement(By.xpath("//*[@id='Title']"));
-	    jobTitle.sendKeys("Test Engineer");
-	    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-	    WebElement Iam=driver.findElement(By.xpath("//*[@id=\"demoRequest\"] "));  
-	    Select select=new Select(Iam);
-	    select.selectByIndex(2);
-	   Browserclose();
+	        WebElement phoneno=driver.findElement(By.xpath("//*[@id='Company']"));
+	        phoneno.sendKeys("9380888735");
+	       WebElement unitCount=driver.findElement(By.xpath("//*[@id=\"Unit_Count__c\"] "));  
+	       Select se=new Select(unitCount);
+	       se.selectByIndex(1);
+	      WebElement jobTitle=driver.findElement(By.xpath("//*[@id='Title']"));
+	      jobTitle.sendKeys("Test Engineer");
+	      driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	      WebElement Iam=driver.findElement(By.xpath("//*[@id=\"demoRequest\"] "));  
+	      Select select=new Select(Iam);
+	      select.selectByIndex(2);
+	      Browserclose();
 	    
 	}
 
