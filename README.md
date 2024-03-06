@@ -52,6 +52,8 @@ in this fuctinality testing i have worked with window handling.
 
 ## Roadmap
 
+--Use the Selenium WebDriver for browser automation.
+-- TestNG with Maven as a dependency manager
 - i have used testng framework.
 -chromedriver version 114.0.5735.90 is required to run test cases on chrome Browser.
 - Add more integrations
