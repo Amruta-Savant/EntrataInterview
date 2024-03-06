@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-06T11:32:04 IST" name="Suite" finished-at="2024-03-06T11:34:56 IST" duration-ms="171634">
+    <groups>
+      <group name="Interview">
+        <method signature="Resources.productdropdown()[pri:0, instance:entrata.Resources@1b1473ab]" name="productdropdown" class="entrata.Resources"/>
+        <method signature="Sign_in.SignIn()[pri:0, instance:entrata.Sign_in@149e0f5d]" name="SignIn" class="entrata.Sign_in"/>
+        <method signature="WatchDemo.Watchdemo()[pri:0, instance:entrata.WatchDemo@4386f16]" name="Watchdemo" class="entrata.WatchDemo"/>
+        <method signature="baseCamp.basecamp()[pri:0, instance:entrata.baseCamp@2f7c2f4f]" name="basecamp" class="entrata.baseCamp"/>
+      </group> <!-- Interview -->
+    </groups>
+    <test started-at="2024-03-06T11:32:04 IST" name="Test" finished-at="2024-03-06T11:34:56 IST" duration-ms="171634">
+      <class name="entrata.baseCamp">
+        <test-method signature="basecamp()[pri:0, instance:entrata.baseCamp@2f7c2f4f]" started-at="2024-03-06T11:33:51 IST" name="basecamp" finished-at="2024-03-06T11:34:56 IST" duration-ms="64859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basecamp -->
+      </class> <!-- entrata.baseCamp -->
+      <class name="entrata.Resources">
+        <test-method signature="productdropdown()[pri:0, instance:entrata.Resources@1b1473ab]" started-at="2024-03-06T11:33:26 IST" name="productdropdown" finished-at="2024-03-06T11:33:51 IST" duration-ms="25132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productdropdown -->
+      </class> <!-- entrata.Resources -->
+      <class name="entrata.WatchDemo">
+        <test-method signature="Watchdemo()[pri:0, instance:entrata.WatchDemo@4386f16]" started-at="2024-03-06T11:32:04 IST" name="Watchdemo" finished-at="2024-03-06T11:32:46 IST" duration-ms="41532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Watchdemo -->
+      </class> <!-- entrata.WatchDemo -->
+      <class name="entrata.Sign_in">
+        <test-method signature="SignIn()[pri:0, instance:entrata.Sign_in@149e0f5d]" started-at="2024-03-06T11:32:46 IST" name="SignIn" finished-at="2024-03-06T11:33:26 IST" duration-ms="40076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIn -->
+      </class> <!-- entrata.Sign_in -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
