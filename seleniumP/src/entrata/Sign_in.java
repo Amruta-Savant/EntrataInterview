@@ -24,12 +24,12 @@ public class Sign_in extends Base_class {
 	OpenBrowser();
 	driver.get("https://www.entrata.com/");
 	acceptcookie();
-	WebElement signin=	driver.findElement(By.xpath("//*[@id=\"gatsby-focus-wrapper\"]/div/div[1]/div/div/div[3]/a[2]"));
+	WebElement signin=driver.findElement(By.xpath("//*[@id=\"gatsby-focus-wrapper\"]/div/div[1]/div/div/div[3]/a[2]"));
 	signin.click();
 	scrollpage();
-    WebElement managerLogin= driver.findElement(By.xpath("//*[@id=\"gatsby-focus-wrapper\"]/div/div[2]/div/div/div/div[1]/div/div[3]/a[1]"));
-    managerLogin.click();
-    WebElement Username=driver.findElement(By.xpath("//*[@id=\"entrata-username\"]"));
+        WebElement managerLogin= driver.findElement(By.xpath("//*[@id=\"gatsby-focus-wrapper\"]/div/div[2]/div/div/div/div[1]/div/div[3]/a[1]"));
+        managerLogin.click();
+        WebElement Username=driver.findElement(By.xpath("//*[@id=\"entrata-username\"]"));
 	Username.sendKeys("Amruta");
 	WebElement password=driver.findElement(By.xpath("//*[@id=\"entrata-password\"]"));
 	password.sendKeys("test1234");
